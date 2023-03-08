@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-origin: 'https://quiet-conkies-39765b.netlify.app/',
+origin: 'https://quiet-conkies-39765b.netlify.app',
 credentials: true
 }));
 
